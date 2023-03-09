@@ -1,3 +1,7 @@
+# Building the image
+```docker image build <path_to_Dockerfile_dir>```
+
+
 # Running a container
 - Using default ENV vars:
 ```
