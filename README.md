@@ -1,5 +1,5 @@
 # Building the image
-```docker image build <path_to_Dockerfile_dir>```
+```docker image build tag=<desired_image_name> <path_to_Dockerfile_dir>```
 
 
 # Running a container
