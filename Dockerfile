@@ -14,6 +14,8 @@ ENV ALLOWED_HOSTS="127.0.0.1,localhost"
 RUN python manage.py makemigrations
 RUN python manage.py migrate
 
+RUN python manage.py collectstatic
+
 
 EXPOSE 8000
 
